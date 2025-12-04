@@ -1,0 +1,28 @@
+:root{
+  --bg:#fafafa;
+  --text:#222;
+  --accent:#0b6efd;
+  font-size:16px;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,Segoe UI,Roboto,Arial;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  padding:20px;
+}
+.site-header{
+  text-align:center;
+  margin-bottom:24px;
+}
+nav a{
+  color:var(--accent);
+  text-decoration:none;
+  margin:0 8px;
+}
+main{max-width:900px;margin:0 auto}
+section{background:white;padding:16px;margin-bottom:12px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+footer{text-align:center;margin-top:18px;color:#666}
